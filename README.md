@@ -2,9 +2,13 @@
 
 Ali is a home assistant being made to be intergrated into my container project, she will be the brain of the house.
 
-# goals
+# overview of branches / goals
 
-- Ali will be able to interpret voice commands and respond to there voice commands. 
-- Ali will be responsible for answering the door when there is nodoby home.
-- Ali will be able to regulate temperature with the heat coupled exchanger and the window shutters.
-- 
+- ali core:
+    the core part of Ali will be responsible for keeping lists (groceries etc.) among other things. 
+- Ali home:
+    The home part is responsible for itergration with existing and new systems, for example; lighting, climate control and shutter control. 
+- Voice synthesis:
+    An implementation of Tacotron 2.
+- image recognition:
+    in order to locate things and recognize people in the house Ali needs a way of image processing.
